@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ConnectBD">
+      <HintPath>ConnectBD\bin\Debug\ConnectBD.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\Практические\Практическая 2 (17.11.2021)\Practice1\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
