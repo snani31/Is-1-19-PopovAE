@@ -89,7 +89,7 @@ namespace Is_1_19_PopovAE
             this.label3.TabIndex = 5;
             this.label3.Text = "Дата добавления данных";
             // 
-            // Form6
+            // Task5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,8 +100,8 @@ namespace Is_1_19_PopovAE
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Form6";
-            this.Text = "Form6";
+            this.Name = "Task5";
+            this.Text = "Task5";
             this.ResumeLayout(false);
             this.PerformLayout();
 
