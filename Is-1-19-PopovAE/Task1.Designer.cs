@@ -298,7 +298,7 @@ namespace Is_1_19_PopovAE
             this.textBox12.Size = new System.Drawing.Size(100, 20);
             this.textBox12.TabIndex = 17;
             // 
-            // Form2
+            // Task1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -332,8 +332,8 @@ namespace Is_1_19_PopovAE
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Task1";
+            this.Text = "Task1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

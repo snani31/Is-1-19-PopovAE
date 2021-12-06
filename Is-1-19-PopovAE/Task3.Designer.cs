@@ -64,14 +64,14 @@ namespace Is_1_19_PopovAE
             this.toolStripContainer1.Text = "toolStripContainer1";
             this.toolStripContainer1.TopToolStripPanelVisible = false;
             // 
-            // Form4
+            // Task3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 638);
             this.Controls.Add(this.toolStripContainer1);
-            this.Name = "Form4";
-            this.Text = "Form4";
+            this.Name = "Task3";
+            this.Text = "Task3";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
