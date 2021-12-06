@@ -26,7 +26,6 @@ namespace Is_1_19_PopovAE
             MySqlConnection connect = new MySqlConnection(conn4.stringconn_DB); // создаём соединение
             string fioStud = textBox2.Text; // заполняем поле фиостуд(ента)
             string dateitimeStud = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss") ; // Да, всё оказалось настолько просто (Это актуальная дата со временем в формате MySql DateTime)
-            MessageBox.Show(dateitimeStud);
             string dateitimeStudFinal = textBox1.Text == "" ? dateitimeStud : textBox1.Text; // случайно добавил автоматическое заполнение нужного поля сегодняшней датой вместо текстбокса, как нужно по заданию, теперь жалко удалять ). Пусть будет как мера предосторожности(Данный код написан Поповым Артёмом(ловушка для воров с гитхаб))
             string sql = $"INSERT INTO t_PraktStud (fioStud, datetimeStud)  VALUES ('{fioStud}','{dateitimeStudFinal}');";
             int counter = 0;
